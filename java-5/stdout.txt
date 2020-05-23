@@ -1,0 +1,17 @@
+Starting a Gradle Daemon (subsequent builds will be faster)
+> Task :clean
+> Task :compileJava
+> Task :processResources
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+> Task :test
+2020-05-20 04:10:53.019  INFO 15272 --- [       Thread-5] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@15f9c575: startup date [Wed May 20 04:10:26 BRT 2020]; root of context hierarchy
+2020-05-20 04:10:53.024  INFO 15272 --- [       Thread-8] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2fd67363: startup date [Wed May 20 04:10:34 BRT 2020]; root of context hierarchy
+2020-05-20 04:10:53.029  INFO 15272 --- [       Thread-8] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-05-20 04:10:53.033  INFO 15272 --- [       Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-05-20 04:10:53.047  INFO 15272 --- [       Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+
+BUILD SUCCESSFUL in 1m 17s
+5 actionable tasks: 5 executed
